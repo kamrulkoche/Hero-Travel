@@ -60,6 +60,7 @@ nav li a {
 .popular .text-content {
   padding-left: 50px;
   line-height: 1.6;
+  padding-top: 30px;
 }
 
 /* .popular .text-content h2 {
@@ -71,10 +72,11 @@ nav li a {
 p,
 li {
   padding-bottom: 10px;
+  
 }
 
 .popular img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
