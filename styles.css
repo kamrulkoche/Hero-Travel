@@ -224,11 +224,38 @@ destination section start */
 }
 .third-item {
   background-color: #f8eaea;
+  margin: 0px solid;
   border-radius: 10px;
   padding-left: 15px;
   padding-top: 20px;
   padding-right: 30px;
   padding-bottom: 30px;
+}
+
+/* subscribe section start */
+
+.subscribe {
+  display: flex;
+}
+.form {
+  border: 2px solid #ff5400;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.form .hr {
+  margin: 20px 0;
+}
+input {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(243, 243, 243);
+  font-size: 15px;
+  padding: 5px;
+  padding-left: 15px;
+  border: 0;
+  margin-bottom: 15px;
 }
 
 /* footer section start */
