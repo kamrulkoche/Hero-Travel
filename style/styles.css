@@ -12,6 +12,14 @@ h2 {
   color: #ff5400;
 }
 
+button {
+  color: white;
+  background-color: #ff5400;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
 .container {
   margin: 20px 100px;
 }
@@ -76,8 +84,7 @@ nav li a {
   display: flex;
   justify-content: center;
   gap: 20px;
-  background-color: rgb(197, 205, 205);
-  opacity: 0.8;
+  background-color: #d5d4d4a8;
   margin: 0 8rem;
   margin-top: 20px;
   padding: 10px;
@@ -126,14 +133,6 @@ li {
 .popular img {
   width: 100%;
   height: auto;
-}
-
-.popular button {
-  color: white;
-  background-color: #ff5400;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 5px;
 }
 
 /* 
@@ -293,8 +292,48 @@ destination section start */
   padding-bottom: 30px;
 }
 
-/* subscribe section start */
+/* discounts section start */
+.discounts {
+  margin-top: 50px;
+}
+.discounts .text-content {
+  text-align: center;
+}
 
+.discounts .first-img {
+  width: 100%;
+  height: 400px;
+  background-image: url("../Images/Group\ 39.png");
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.discounts .card {
+  position: absolute;
+  background-color: #e9e7e7e0;
+  max-width: 100%;
+  height: auto;
+  right: 0;
+  bottom: 0;
+  padding: 40px;
+  margin: 40px;
+  margin-left: 500px;
+  border-radius: 10px;
+}
+
+.discounts .card .time ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
+}
+
+.discounts .card h3 {
+  padding-bottom: 10px;
+}
+
+
+/* subscribe section start */
 .subscribe {
   display: flex;
   gap: 30px;
@@ -426,7 +465,7 @@ footer .copyright {
     text-align: center;
     color: white;
     padding: 0 20px;
-}
+  }
 
   .form {
     border: 2px solid #ff5400;
@@ -456,6 +495,20 @@ footer .copyright {
   .choose .item-2 {
     padding: 0%;
   }
+
+  /* discounts section */
+  /* .discounts .first-img{
+    width: 100%;
+    height: 400px;
+  } */
+
+
+  .discounts .card {
+    padding: 20px;
+    margin: 50px;
+    border-radius: 10px;
+  }
+
 
   footer p {
     padding: 0px;
