@@ -1,6 +1,12 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+  /* font-family: 'Inter', sans-serif; */
+  font-family: "Merriweather", serif;
+  font-family: "Inter", sans-serif;
 }
 
 h2 {
@@ -63,12 +69,16 @@ nav li a {
 .bg-img {
   width: 100%;
   height: 400px;
-  background-image:  linear-gradient(to bottom, rgba(0, 1, 1, 0.52), rgba(31, 39, 43, 0.746)),url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 1, 1, 0.52),
+      rgba(31, 39, 43, 0.746)
+    ),
+    url("../Images/Group\ 13\ \(1\)\ \(1\).png");
   background-size: 100% 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
 .explore .text-content {
@@ -87,7 +97,7 @@ nav li a {
   justify-content: center;
   gap: 20px;
   background-color: #d5d4d4a8;
-  margin: 0 8rem;
+  margin: 0 15rem;
   margin-top: 20px;
   padding: 10px;
   border-radius: 5px;
@@ -480,6 +490,10 @@ footer .copyright {
   .from,
   .Perfect {
     flex-direction: column;
+  }
+
+  .explore {
+   gap: 10px;
   }
 
   .explore .from {
